@@ -1,0 +1,116 @@
+<h1>카드형 리스트</h1>
+<ul>
+    <li>
+        <div class="album-item">
+            <div class="album-cover"></div>
+            <div class="album-info">
+                <p class="album-title">앨범1</p>
+                <p class="album-date">2017.02.16.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="album-item">
+            <div class="album-cover"></div>
+            <div class="album-info">
+                <p class="album-title">앨범2</p>
+                <p class="album-date">2017.02.16.</p>
+            </div>
+        </div>
+    </li>
+</ul>
+<style>
+
+    input,
+    fieldset,
+    img,
+    iframe {
+        border: 0;
+    }
+
+    ul,
+    ol {
+        list-style-type: none;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    a:hover,
+    a:focus {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        outline: none;
+    }
+
+    button:disabled,
+    button:disabled:hover {
+        cursor: default;
+    }
+
+    /* style */
+    body {
+        background: #000;
+    }
+
+    h1 {
+        color: #fff;
+    }
+
+    ul {
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+        margin: 10px;
+        width: calc(25% - 20px);
+        background: #fff;
+        text-align: center;
+    }
+
+    li:nth-child(2) .album-cover {
+        background-image: url('https://cdnimg.melon.co.kr/cm/album/images/100/10/416/10010416_org.jpg');
+    }
+
+    .album-cover {
+        width: 100%;
+        height: 260px;
+        background-image: url('https://cdnimg.melon.co.kr/cm/album/images/100/16/426/10016426_org.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .album-info {
+        padding: 10px;
+    }
+
+    .album-title {
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .album-date {
+        font-size: 12px;
+    }
+
+    /* 
+https://cdnimg.melon.co.kr/cm/album/images/100/10/416/10010416_org.jpg
+https://cdnimg.melon.co.kr/cm/album/images/100/00/581/10000581_org.jpg
+https://cdnimg.melon.co.kr/cm/album/images/026/57/056/2657056_org.jpg */
+
+</style>
