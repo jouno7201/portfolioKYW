@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="logo">Yewon's Yeworld</a>
+
+        <nav>
+            <ul>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="content" id="first">
+            <h2>PORTFOLIO</h2>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Detail - </h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Design</h3>
+        </div>
+        <hr>
+        <div class="content" id="second">
+            <img src="../Image/trand.jpg" alt="" id="one">
+            <img src="../Image/keyword.PNG" alt="" id="two">
+        </div>
+        <hr>
+        <div class="content" id="thrid">
+            <img src="../Image/%EC%95%84%EC%A4%84%EB%A0%88%EC%A3%BC.jpg" alt="" id="">
+            <p>
+                <strong>'다양한 삶을 만나며 나의 가능성을 확장'</strong><br>
+                의식을 행하므로 사물은 의미를 지니고,
+                대를 잇는 장인정신과 공예가 지구의 미래를 책임지게 될것이다.' <br>
+                어느정도의 열정으로 작업에 임하고, 그렇게 완성된 작품에서 오는 희열의 크기는 어느정도일까 라는 물음에서부터 이번 컨셉을 잡아 나가기 시작했다.
+            </p>
+        </div>
+        <hr>
+        <div class="content" id="fourth">
+            <div>
+                <p>
+                    <strong>아줄레주(azulejo)</strong>양식을 차용하여 예술가들의 장인정신을 보여줄 수 있는 작업과정을 담은 이야기를 소재로 패턴을 풀어나감.
+                </p>
+                <img src="../Image/pattern1.jpg" alt="" id="">
+                <img src="../Image/pattern2.jpg" alt="" id="">
+            </div>
+            <div>
+                <img src="../Image/%ED%95%B8%EB%93%9C%EB%B0%B1.jpg" alt="" id="">
+                <img src="../Image/%EA%B8%88%EC%9E%A5%20%EB%93%9C%EB%A1%9C%EC%9E%89.jpg" alt="" id="">
+                <p>
+                    장인들의 작업과정을 담은 패턴으로 패브릭 제작.
+                    패턴 속의 모티프로 금장을 제작하여 <strong>핸드백 완성</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id=footWrap>
+            <hr>
+            <span>© 2020 Hello, Yewon's Yeworld! Made by Yewon</span>
+            <span>E-mail :yewon9502@naver.com ㅣ ‌010.
+                6277.9502</span>
+        </div>
+    </footer>
+</body>
+<style>
+    /* Header */
+    body {
+        min-width: 630px;
+    }
+
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: #333;
+    }
+
+    header>a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 26px 16px;
+        text-decoration: none;
+        height: auto;
+        margin-left: 40px;
+        font-size: 23px;
+    }
+
+    header a,
+    ul,
+    li {
+        float: left;
+    }
+
+    header ul {
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        padding-left: 50px;
+    }
+
+    header li {
+        height: 100%;
+    }
+
+    header li>a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 30px 16px;
+        text-decoration: none;
+        height: auto;
+    }
+
+    header li>a:hover {
+        background-color: #111;
+    }
+
+    header>nav {
+        float: right;
+        width: 400px;
+        height: 100%;
+    }
+</style>
+<style>
+    section {
+        width: 930px;
+        margin: 0 auto;
+        height: 1700px;
+    }
+
+    .content {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    #one {
+        position: absolute;
+        width: 55%;
+        left: 10px;
+        top: 10px;
+        height: 90%;
+    }
+
+    #two {
+        position: absolute;
+        width: 60%;
+        left: 520px;
+        top: 0px;
+    }
+
+    #first {
+
+        box-sizing: border-box;
+        /* 오페라(Opera) */
+
+        -moz-box-sizing: border-box;
+        /* 파이어폭스(Firefox)*/
+
+        -webkit-box-sizing: border-box;
+        /* 웹킷(Webkit) & 크롬(Chrome) */
+
+        padding-top: 100px;
+    }
+
+    #first h2,
+    h3 {
+        line-height: 50px;
+        display: block;
+        margin: 0 auto;
+        width: 275px;
+    }
+
+    #first h2 {
+        font-size: 50px;
+    }
+
+    #first h3 {
+        font-size: 30px;
+    }
+
+    #thrid img {
+        width: 800px;
+        height: 250px;
+    }
+
+    #fourth img {
+        width: 200px;
+        height: auto;
+        max-height: 320px;
+    }
+
+    #fourth div {
+        width: 45%;
+        float: left;
+        margin-left: 14px;
+    }
+</style>
+<style>
+    footer {
+        background-color: #333;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    footer span {
+        font-size: 12px;
+        color: white;
+        width: 630px;
+        margin: 0px 20px;
+    }
+
+    #footWrap {
+        width: 630px;
+        margin: 0 auto;
+
+    }
+</style></html>

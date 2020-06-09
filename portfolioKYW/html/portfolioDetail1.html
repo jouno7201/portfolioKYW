@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="logo">Yewon's Yeworld</a>
+
+        <nav>
+            <ul>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="content" id="first">
+            <h2>PORTFOLIO</h2>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Detail - </h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Story</h3>
+        </div>
+        <hr>
+        <div class="content" id="second">
+            <img src="../Image/oven.png" alt="" id="one">
+            <p id="two">
+                &nbsp;&nbsp;&nbsp;<strong>Step1 : 프로토 타입 작성</strong><br>
+                첫 화면을 보게되면 , 4가지 패턴을 선택 할 수 있다.
+                그림 혹은 패턴1~4의 버튼을 클릭하여 패턴에 대한 설명을 들을 수 있다.
+                <br>
+                <br>
+                <a href="https://ovenapp.io/view/ffJib5zyGjTrb0bkOQSVMRG7AatoOH7D/zos4q">Link!</a>
+                
+                를 클릭하여 이동 가능!
+
+            </p>
+        </div>
+        <hr>
+         <div class="content" id="second">
+            <img src="../Image/scratch.png" alt="" id="one">
+            <p id="two">
+                &nbsp;&nbsp;&nbsp;<strong>Step2 : Scratch 코딩</strong><br>
+                클릭 이벤트를 사용하여 각 패턴을 클릭 시 , 배경이 각 패턴으로 바뀌며 인물 스프라이트가 등장해 패턴에 대한 설명을 해주는 방식으로 진행된다.
+            </p>
+        </div>
+        <hr>
+       <div class="content" id="second">
+           <iframe id="one" src="https://www.youtube.com/embed/fzTd-0LLHwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p id="two">
+                &nbsp;&nbsp;&nbsp;<strong>Step3 : MyStory 시연 영상</strong><br>
+                MyStory 프로젝트의 시연 영상입니다.
+                <br>
+                <br>
+                유투브 링크 : https://youtu.be/fzTd-0LLHwU
+        </div>
+    </section>
+
+    <footer>
+        <div id=footWrap>
+            <hr>
+            <span>© 2020 Hello, Yewon's Yeworld! Made by Yewon</span>
+            <span>E-mail :yewon9502@naver.com ㅣ ‌010.
+                6277.9502</span>
+        </div>
+    </footer>
+</body>
+<style>
+    /* Header */
+    body {
+        min-width: 630px;
+    }
+
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: #333;
+    }
+
+    header>a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 26px 16px;
+        text-decoration: none;
+        height: auto;
+        margin-left: 40px;
+        font-size: 23px;
+    }
+
+    header a,
+    ul,
+    li {
+        float: left;
+    }
+
+    header ul {
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        padding-left: 50px;
+    }
+
+    header li {
+        height: 100%;
+    }
+
+    header li>a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 30px 16px;
+        text-decoration: none;
+        height: auto;
+    }
+
+    header li>a:hover {
+        background-color: #111;
+    }
+
+    header>nav {
+        float: right;
+        width: 400px;
+        height: 100%;
+    }
+</style>
+<style>
+    section {
+        width: 930px;
+        margin: 0 auto;
+        height: 1700px;
+    }
+
+    .content {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    #one {
+        position: absolute;
+        width: 52%;
+        left: 10px;
+        top: 10px;
+        height: 80%;
+    }
+
+    #two {
+        position: absolute;
+        width: 43%;
+        left: 520px;
+        top: 0px;
+        font-size: 20px;
+    }
+
+    #first {
+
+        box-sizing: border-box;
+        /* 오페라(Opera) */
+
+        -moz-box-sizing: border-box;
+        /* 파이어폭스(Firefox)*/
+
+        -webkit-box-sizing: border-box;
+        /* 웹킷(Webkit) & 크롬(Chrome) */
+
+        padding-top: 100px;
+    }
+
+    #first h2,
+    h3 {
+        line-height: 50px;
+        display: block;
+        margin: 0 auto;
+        width: 275px;
+    }
+
+    #first h2 {
+        font-size: 50px;
+    }
+
+    #first h3 {
+        font-size: 30px;
+    }
+
+</style>
+<style>
+    footer {
+        background-color: #333;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    footer span {
+        font-size: 12px;
+        color: white;
+        width: 630px;
+        margin: 0px 20px;
+    }
+
+    #footWrap {
+        width: 630px;
+        margin: 0 auto;
+
+    }
+</style></html>
